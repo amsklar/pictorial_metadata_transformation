@@ -3,7 +3,6 @@ Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Librar
 
 ## Overview
 
-Endpoint searches for items by map format, with a subject of pictorial maps, and returns up to 150 results
 ---
 ## Extracting
 
