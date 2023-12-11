@@ -8,9 +8,9 @@ Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Librar
 
 Information regarding pictorial maps created from 1900-1990 held at the Library of Congress Geography and Map Division was extracting by using an endpoint to search for items by map format, with subject of pictorial maps, and returns up to 150 results.
 
-Collection level metadata was extracted to compile item Title, Image URL, and the URL of the item.
+Collection level metadata was extracted to compile item Title, Image URL, and the URL of the item. Results can be found in `pictorial_collection.csv `
 
-Item level metadata was extracted to .json format. To which the results were compiled into a CSV. 
+Item level metadata was extracted to .json format. To which the results were compiled into a CSV.  Results can be found in `pictorial_metadata.csv`
 
 ---
 ## Transforming
