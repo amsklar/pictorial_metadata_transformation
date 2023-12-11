@@ -181,6 +181,23 @@ A site to host the items and their metadata was created in Omeka S entitled Pict
 
 Next, three item sets were created in `MAP.ipynb` to hold the items related to Japan, China, and the United States. 
 
-Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel Berthereau, ite,s for the respective item sets were loaded to Omeka using the following guidelines. 
+Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel Berthereau, items for their respective item sets were loaded to Omeka using the tranformation guidelines listed above. Additional guidelines are as follows:
+
+| Column | Mappings | Options |
+| -------- | ----- | ----- |
+|Type|   Type| Multivalue |
+| Extent |  Extent | Multivalue |
+| Date |  Date | |
+| Image_URL| Media source[URL]  | |
+| Description |  Description | Multivalue |
+| Identifier |  Identifier | |
+| Creator |  Creator | Multivalue |
+| Publisher | Publisher  | Multivalue |
+| Language |  Language | Multivalue |
+| Location |  Coverage | Multivalue  |
+| Subject |  Subject | Multivalue  |
+| Title |  Title |  |
+
+Importantly, the multivalue deliminator is a `/`. This was specified in the transformation process script. 
 
 ###
