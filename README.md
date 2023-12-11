@@ -177,4 +177,10 @@ Additionally, since `pictorial_metadata_transform.csv` contains all results of p
 ---
 ## Loading
 
+A site to host the items and their metadata was created in Omeka S entitled Pictorial Maps.
+
+Next, three item sets were created in `MAP.ipynb` to hold the items related to Japan, China, and the United States. 
+
+Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel Berthereau, ite,s for the respective item sets were loaded to Omeka using the following guidelines. 
+
 ###
