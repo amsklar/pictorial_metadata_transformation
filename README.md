@@ -3,6 +3,8 @@ Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Librar
 
 ## Overview
 
+Omeka S site: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
+
 ---
 ## Extracting
 
