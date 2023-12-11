@@ -17,7 +17,7 @@ Lastly, `LOC_libraries` contains a slightly different extract, load, and transfo
 ---
 ## Extracting
 
-Information regarding pictorial maps created from 1900-1990 held at the Library of Congress Geography and Map Division was extracting by using an endpoint to search for items by map format, with subject of pictorial maps, and returns up to 150 results.
+Information regarding pictorial maps created from 1900-1990 held at the Library of Congress Geography and Map Division was extracted by using an endpoint to search for items by map format, with subject of pictorial maps, and returns up to 150 results.
 
 Collection level metadata was extracted to compile item Title, Image URL, and the URL of the item. Results can be found in `pictorial_collection.csv `
 
