@@ -166,6 +166,11 @@ Getty Thesaurus of Geographic Names (TGN): https://www.getty.edu/vow/TGNSearchPa
 | **Repeatable** | Yes |
 | **Notes and Best Practices** | • Use standard vocabulary LCSH when possible • Can include geographic or forms, include -- to separate values • Example: Natural resources--United States--Maps • Example: Central business districts |
 
+### Scripting
+
+The item level metadata located in `pictorial_metadata.csv` was transformed based on the interested field outlined above and headers were re-named. See `pictorial_metadata_transform.csv` for results. Next, item level information was extracted from list format and the deliminator was chagned from `,` to `/` for more streamlined loading into Omeka S. 
+
+Additionally, since `pictorial_metadata_transform.csv` contains all results of pictorial maps betwen 1900 and 1990, the file was subsetting based on Subjects China, Japan, and United States. Resulting in `pictorial_metadata_China.csv`, `pictorial_metadata_Japan.csv`, and `pictorial_metadata_US.csv`.
 
 ---
 ## Loading
