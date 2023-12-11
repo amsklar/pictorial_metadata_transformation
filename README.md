@@ -1,15 +1,24 @@
 # Pictorial Map Metadata Guidelines: *Requirements and Recommendations for Preparing Metadata for Pictorial Maps Omeka S Site*
 Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Libraries, Archives, and Museums
+
 ## Overview
+
+Endpoint searches for items by map format, with a subject of pictorial maps, and returns up to 150 results
 ---
 ## Extracting
+
+Information regarding pictorial maps created from 1900-1990 held at the Library of Congress Geography and Map Division was extracting by using an endpoint to search for items by map format, with subject of pictorial maps, and returns up to 150 results.
+
+Collection level metadata was extracted to compile item Title, Image URL, and the URL of the item.
+
+Item level metadata was extracted to .json format. To which the results were compiled into a CSV. 
+
 ---
 ## Transforming
 ### Metadata Application Profile (MAP)
 
 This guideline is meant to assist in the expression of all the types of items and the descriptive
-information regarding pictorial maps created from 1900-1990 held at the Library of Congress
-Geography and Map Division. This information comes from an already existing extant schemas
+information. This information comes from an already existing extant schemas
 to be translated into Dublin Core metadata for the purpose of curating an Omeka S site. This is
 a model and guide on how to map and model metadata from Library of Congress to the Omeka
 S site. The following information includes the referenced namespaces, standards, and
