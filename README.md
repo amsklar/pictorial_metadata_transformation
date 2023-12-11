@@ -12,7 +12,7 @@ The following guidelines and processes extracts information from the Library of 
 
 To demonstrate the extract, transform, and load process on an additional collection, an Omeka S site of transit maps from the Library of Congress was created. This information can be found in `transit`.
 
-Lastly, `LOC_libraries` contains a slightly different extract, load, and transform process from the pictorial and transit collections and details listed below. But, it served as an introduction and first attempt at this process. This collection is from the Free to Use and Reuse Libraries collection at the Library of Congress.
+Lastly, `LOC_libraries` contains a slightly different extract, load, and transform process from the pictorial and transit collections as well as the information listed below. But, it served as an introduction and first attempt at this process. This collection is from the Free to Use and Reuse Libraries collection at the Library of Congress.
 
 ---
 ## Extracting
