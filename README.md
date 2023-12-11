@@ -7,7 +7,12 @@ The following guidelines and processes extracts information from the Library of 
 
 ### Structure of Repository
 
+- `MAP.ipynb`: contains the script to extract, tranform, and begin the process of uploading the item set and their respective items to an Omeka S site relating to pictorial maps.
+- `pictorial`: contains the outputs of `MAP.ipynb` such as .json files that were extracted from the Library of Congress, CSV files, and more.
 
+To demonstrate the extract, transform, and load process on an additional collection, an Omeka S site of transit maps from the Library of Congress was created. This information can be found in `transit`.
+
+Lastly, `LOC_libraries` contains a slightly different extract, load, and transform process from the pictorial and transit collections and details listed below. But, it served as an introduction and first attempt at this process. This collection is from the Free to Use and Reuse Libraries collection at the Library of Congress.
 
 ---
 ## Extracting
@@ -204,4 +209,3 @@ Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel 
 
 Importantly, the multivalue deliminator is a `/`. This was specified in the transformation process script. 
 
-###
