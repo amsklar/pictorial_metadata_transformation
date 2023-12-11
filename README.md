@@ -209,3 +209,12 @@ Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel 
 
 Importantly, the multivalue deliminator is a `/`. This was specified in the transformation process script. 
 
+---
+## Results
+
+The final Omeka S site of pictorial maps contains four pages: About, Japan, US, and China. It also features a View All section to allow users to view all the maps in one place regardless of their location affilation of Japan, China, or United States. View the Pictorial Maps site: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
+
+Additionally, a site showcasing Transit Maps was created to demonstrate the extract, transform, and load process from pictorial maps could be replicated: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/transit-maps/page/about
+
+And another site was created in the testing and implemention phase related to the Free to Use and Reuse Library of Conress Collection of Libraries. This site can be found here: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/loc-libraries/page/welcome
+
