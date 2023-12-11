@@ -53,6 +53,17 @@ Getty Thesaurus of Geographic Names (TGN): https://www.getty.edu/vow/TGNSearchPa
 | language  | Language | Optional | dcterms:language |
 | location | Location | Recommended |dcterms:coverage |
 |  subject  | Subject | Recommended | dcterms:subject |
+
+### Guidelines Key
+| <!-- -->    | <!-- -->   | 
+| LOC Label | Field label used by Library of Congress |
+| Omeka Label | Field label used in Omeka S |
+| Status |  Identifies if a field is required, recommended, or optional |
+| Description | Description of the field |
+| DC Term | The qualified Dublin Core element to which a field should map |
+| Repeatable | Identifies if a field is repeatable |
+| Notes and Best Practices | Includes recommendations for a field’s content and application |
+
 ---
 ## Loading
 
