@@ -1,9 +1,9 @@
 # Pictorial Map Metadata Guidelines: *Requirements and Recommendations for Preparing Metadata for Pictorial Maps Omeka S Site*
 Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Libraries, Archives, and Museums
 ## Overview
-
+---
 ## Extracting
-
+---
 ## Transforming
 ### Metadata Application Profile (MAP)
 
@@ -21,8 +21,6 @@ items in the Omeka S collection.
 
 DCMI Terms: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
 
-MODS: 
-
 ISO 639-3: https://iso639-3.sil.org/code_tables/639/data
 
 ISO 8601: https://www.iso.org/iso-8601-date-and-time-format.html
@@ -35,7 +33,7 @@ Getty Thesaurus of Geographic Names (TGN): https://www.getty.edu/vow/TGNSearchPa
 
 ### Metadata Fields Cheatsheet
 
-| LOC Label  | Omeka Label | Status  | Term |
+| LOC Label  | Omeka Label | Status  | DC Term |
 | -----------| -----------| ---------| ------ |
 |    title   |   Title    | Required | dcterms:title |
 |    notes   | Description | Recommended | dcterms:description |
@@ -45,9 +43,9 @@ Getty Thesaurus of Geographic Names (TGN): https://www.getty.edu/vow/TGNSearchPa
 | digital_id | Identifier | Optional | dcterms:identifier |
 | created_published  | Publisher | Recommended | dcterms:publisher |
 | language  | Language | Optional | dcterms:language |
-| location | Location | Recommended |  |
+| location | Location | Recommended |dcterms:coverage |
 |  subject  | Subject | Recommended | dcterms:subject |
-
+---
 ## Loading
 
 ###
