@@ -1,4 +1,4 @@
-# Pictorial Map Metadata Guidelines: *Requirements and Recommendations for Preparing Metadata for Pictorial Maps Omeka S Site*
+# Pictorial Map Metadata Guidelines: *Requirements and Recommendations for Preparing Metadata to Load into Omeka S*
 Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Libraries, Archives, and Museums
 
 ## Overview
