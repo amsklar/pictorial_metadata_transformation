@@ -3,7 +3,11 @@ Created by Alyssa Sklar, December 2023 for SI 676: Networked Services for Librar
 
 ## Overview
 
-Omeka S site: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
+The following guidelines and processes extracts information from the Library of Congress Geography and Map Division items related to pictorial maps in order to transform the metadata and load into an Omeka S site. The Omeka S site is found at: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
+
+### Structure of Repository
+
+
 
 ---
 ## Extracting
