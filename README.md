@@ -179,9 +179,9 @@ Getty Thesaurus of Geographic Names (TGN): https://www.getty.edu/vow/TGNSearchPa
 
 ### Scripting
 
-The item level metadata located in `pictorial_metadata.csv` was transformed based on the interested field outlined above and headers were re-named. See `pictorial_metadata_transform.csv` for results. Next, item level information was extracted from list format and the deliminator was chagned from `,` to `/` for more streamlined loading into Omeka S. 
+The item level metadata located in `pictorial_metadata.csv` was transformed based on the interested fields outlined above and headers were re-named. See `pictorial_metadata_transform.csv` for results. Next, item level information was extracted from list format and the deliminator was chagned from `,` to `/` for a more streamlined loading into Omeka S. 
 
-Additionally, since `pictorial_metadata_transform.csv` contains all results of pictorial maps betwen 1900 and 1990, the file was subsetting based on Subjects China, Japan, and United States. Resulting in `pictorial_metadata_China.csv`, `pictorial_metadata_Japan.csv`, and `pictorial_metadata_US.csv`.
+Additionally, since `pictorial_metadata_transform.csv` contains all results of pictorial maps betwen 1900 and 1990, the file was subsetted based on the Subjects China, Japan, and United States. Resulting in `pictorial_metadata_China.csv`, `pictorial_metadata_Japan.csv`, and `pictorial_metadata_US.csv`.
 
 ---
 ## Loading
@@ -194,25 +194,25 @@ Using the CSV Import Module (version 2.5.0) in Omeka S by Omeka Team and Daniel 
 
 | Column | Mappings | Options |
 | -------- | ----- | ----- |
-|Type|   Type| Multivalue |
-| Extent |  Extent | Multivalue |
-| Date |  Date | |
+|Type|   dcterms:Type| Multivalue |
+| Extent |  dcterms:Extent | Multivalue |
+| Date |  dcterms:Date | |
 | Image_URL| Media source[URL]  | |
-| Description |  Description | Multivalue |
-| Identifier |  Identifier | |
-| Creator |  Creator | Multivalue |
-| Publisher | Publisher  | Multivalue |
-| Language |  Language | Multivalue |
-| Location |  Coverage | Multivalue  |
-| Subject |  Subject | Multivalue  |
-| Title |  Title |  |
+| Description |  dcterms:Description | Multivalue |
+| Identifier |  dcterms:Identifier | |
+| Creator |  dcterms:Creator | Multivalue |
+| Publisher | dcterms:Publisher  | Multivalue |
+| Language |  dcterms:Language | Multivalue |
+| Location |  dcterms:Coverage | Multivalue  |
+| Subject |  dcterms:Subject | Multivalue  |
+| Title |  dcterms:Title |  |
 
-Importantly, the multivalue deliminator is a `/`. This was specified in the transformation process script. 
+Importantly, the multivalue deliminator is a `/`. This was specified in the transformation process script and will need to be updated when using the CSV Imports module in Omeka S.
 
 ---
 ## Results
 
-The final Omeka S site of pictorial maps contains four pages: About, Japan, US, and China. It also features a View All section to allow users to view all the maps in one place regardless of their location affilation of Japan, China, or United States. View the Pictorial Maps site: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
+The final Omeka S site of pictorial maps contains four pages: About, Japan, US, and China. It also features a View All section to allow users to view all the maps in one place regardless of their Subject affilation of Japan, China, or United States. View the Pictorial Maps site: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/pictorial-maps/page/pictorial-maps-about
 
 Additionally, a site showcasing Transit Maps was created to demonstrate the extract, transform, and load process from pictorial maps could be replicated: https://amsklar.projectst.si.umich.edu/omekas/omeka-s/s/transit-maps/page/about
 
